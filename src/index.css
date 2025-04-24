@@ -18,3 +18,24 @@ button {
   color: white;
   cursor: pointer;
 }
+
+.recipe-markup h1, .recipe-markup h2, .recipe-markup h3, .recipe-markup h4, .recipe-markup h5, .recipe-markup h6{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 0.5rem 0;
+}
+
+.recipe-markup ul, .recipe-markup ol{
+  list-style-position: inside;
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+}
+
+.recipe-markup ul{
+  list-style-type: disc;
+}
+
+.recipe-markup ol{
+  list-style-type: auto;
+}
