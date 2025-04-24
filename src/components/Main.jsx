@@ -11,8 +11,8 @@ export default function Main(){
   }
 
   return (
-    <main className="py-10 px-64 space-y-8">
-      <form id="my-form" action={handleSubmit} className="w-full grid grid-cols-[70%_auto] gap-4">
+    <main className="py-10 px-10 sm:px-20 lg:px-48 xl:px-64 space-y-8">
+      <form id="my-form" action={handleSubmit} className="w-full grid sm:grid-cols-[60%_auto] lg:grid-cols-[70%_auto] gap-4">
         <input type="text" name="ingredient" aria-label="Add your ingredients here" placeholder="e.g. oregano" 
           className="px-5 py-2 rounded-lg focus-visible:outline-0 ring-2 ring-gray-300 w-full hover:ring-gray-600 active:ring-gray-600"/>
         <button aria-label="Click to add ingredients" className="hover:shadow-lg hover:shadow-gray-300 hover:!bg-[#1a1a1a]/80">&#43; Add ingredient</button>
